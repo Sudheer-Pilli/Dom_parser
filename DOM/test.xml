@@ -1,0 +1,43 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-model href="test.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-stylesheet href="test.xsl" type="text/xsl"?>
+<placementOffice>
+    <placementCoordinator>
+        <id>A1001</id>
+        <Name>Sudheer</Name>
+        <email>kiransudheer16@gmail.com</email>
+        <PhoneNo>9902543319</PhoneNo>
+        <Department>Law</Department>
+    </placementCoordinator>
+    <placementCoordinator>
+        <id>A1002</id>
+        <Name>Aditya</Name>
+        <email>Adityaaluvilla@gmail.com</email>
+        <PhoneNo>9988776650</PhoneNo>
+        <Department>COMPUTER SCi</Department>
+    </placementCoordinator>
+    <placementCoordinator>
+        <id>A1003</id>
+        <Name>Steve</Name>
+        <email>Steve@gmail.com</email>
+        <PhoneNo>9232543319</PhoneNo>
+        <Department>BCom</Department>
+    </placementCoordinator>
+    <placementCoordinator>
+        <id>A1004</id>
+        <Name>Jonty</Name>
+        <email>jontyjonathan@gmail.com</email>
+        <PhoneNo>9945256546</PhoneNo>
+        <Department>Designer</Department>
+    </placementCoordinator>
+    <placementCoordinator>
+        <id>A1005</id>
+        <Name>Rebekah</Name>
+        <email>rebekah@gmail.com</email>
+        <PhoneNo>9932223234</PhoneNo>
+        <Department>Electronics</Department>
+    </placementCoordinator>
+
+    
+
+</placementOffice>

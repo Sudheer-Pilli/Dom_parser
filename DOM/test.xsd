@@ -1,0 +1,38 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="placementOffice" type="placementOffice"></xs:element>
+        <xs:complexType name ="placementOffice">
+            <xs:sequence>
+                <xs:element name ="placementCoordinator" type="placementCoordinator" maxOccurs="unbounded"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:complexType name="placementCoordinator">
+            <xs:sequence>
+                <xs:element name="id" type="Pc_id"></xs:element>
+                <xs:element name="Name" type="xs:string"></xs:element>
+                <xs:element name="email" type="xs:string"></xs:element>
+                <xs:element name="PhoneNo" type="PhoneNo"></xs:element>
+                <xs:element name="Department" type="xs:string"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:simpleType name="Pc_id">
+            <xs:restriction base="xs:string">
+                <xs:length value="5"></xs:length>
+                <xs:pattern value="A([0-9])+"></xs:pattern>
+            </xs:restriction>
+        </xs:simpleType>
+        <xs:simpleType name="PhoneNo">
+            <xs:restriction base="xs:string">
+                <xs:length value="10"></xs:length>
+                <xs:pattern value="[0-9]+"></xs:pattern>
+            </xs:restriction>
+        </xs:simpleType>
+        <xs:simpleType name="email">
+            <xs:restriction base="xs:string">
+            <xs:length value="30"></xs:length>
+            <xs:pattern value="[^@]+@[^\.]+\..+"></xs:pattern>
+            </xs:restriction>
+        </xs:simpleType>
+
+
+</xs:schema>
