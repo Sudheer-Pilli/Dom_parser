@@ -26,35 +26,11 @@ function addCookie()
         alert("Form Incomplete")
     }
 
-    // var name = document.getElementById("user_name").value
-    // var loc = document.getElementById("location").value
-    // if((name.trim() != "")  && (loc.trim() != ""))
-    // {
-    //     document.cookie = "name=" + name + ";expires=Sun, 30 Jan 2022 00:00:00 UTC;"
-    //     document.cookie = "location=" + loc + ";expires=Sun, 30 Jan 2022 00:00:00 UTC;"
-    //     localStorage.setItem('name', name)
-    //     localStorage.setItem('location', loc)
-    //     sessionStorage.setItem('name', name)
-    //     sessionStorage.setItem('location', loc)
-    //     alert("Cookie Added")
-    //     window.location.reload()
-    // }
-    // else
-    // {
-    //     alert("Form Incomplete")
-    // }
 }
 
 function readCookie()
 {
-    // var i
-    // var message = ""
-    // var list = document.cookie.split(';')
-    // for(i = 0; i < list.length; i++)
-    // {
-    //     message += list[i].split('=')[0] + ": " + list[i].split('=')[1] + "\n"
-    // }
-    // alert(message)
+   
     if(document.cookie.length!=0)
     {
         alert(document.cookie)
